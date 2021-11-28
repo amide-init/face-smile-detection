@@ -1,0 +1,6 @@
+tensorflow
+keras
+scikit-learn
+imutils
+opencv-python
+matplotlib
