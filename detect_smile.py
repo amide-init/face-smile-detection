@@ -45,7 +45,7 @@ while True:
         cv2.rectangle(frameClone, (fX, fY), (fX + fW, fY+ fH), (0, 255, 0), 2)
     cv2.imshow("Face", frameClone)
 
-    if cv2.waitKey(30) & 0xFF == ord("q"):
+    if cv2.waitKey(0) & 0xFF == ord("q"):
         break
 
 camera.release()
